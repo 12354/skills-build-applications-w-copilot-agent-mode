@@ -1,0 +1,10 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"command": "django-admin startproject octofit_tracker . && django-admin startapp octofit_tracker",
+			"label": "Setup Django project and app",
+			"type": "shell"
+		}
+	]
+}
