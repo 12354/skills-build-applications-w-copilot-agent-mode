@@ -5,7 +5,7 @@
 # MongoDB Database Configuration
 DATABASES = {
     'default': {
-        'ENGINE': 'djongo',
+        'ENGINE': 'djongo',  # Use djongo as the database engine for MongoDB
         'NAME': 'octofit_db',
     }
 }
